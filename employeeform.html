@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0 auto;
+    }
+    .header{
+        margin-left: 230px;
+        border: 2px solid brown;
+        margin-right: 250px;
+        margin-top: -10px;
+        font-size: 20px;
+        font-weight: 600;
+        color: darkcyan;
+        padding: 3px;
+    }
+    body{
+        background-color: blueviolet;
+    }
+    .main{
+        background-color: aliceblue;
+        position: relative;
+        margin-top:30px;
+        margin-left: 150px;
+        width: 780px;
+        border-radius: 6px;
+        padding: 30px;
+        border: 5px solid chartreuse;
+        
+    }
+    .abc{
+        border: 3px solid blue;
+        border-radius: 5px;
+        background-color: none;
+    }
+    .pic1{
+        position: absolute;
+        top: 110px;
+        left: 600px;
+    }
+    label{
+        font-size: 17px;
+        color: crimson;
+    }
+    input{
+        
+    }
+    img{
+        height: 140px;
+        width: 120px;
+    }
+    .box1>input{
+     width: 250px;
+    }
+</style>
+
+<body>
+    <div class="main">
+    <div class="header">
+        <u><h3>Employee Registration form</h3></u></div>
+    <fieldset class="abc">
+        <legend>
+            Fill-up forms : Only for Students
+        </legend>
+    <div class="box1"><label for="">Name:</label>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" placeholder="Your name please">
+    <div><br>
+        Fathers Name: &nbsp&nbsp<input type="text" placeholder="Your F'name please">
+    </div>
+    </div><br>
+    <div>
+        Email ID: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="email"placeholder="@email">
+    <div><br>
+        Phone number:&nbsp <input type="text"placeholder="9xxxxxxxxx9">
+    </div>
+    </div><br>
+    <div>
+        Date Of Birth: &nbsp&nbsp<input type="date">
+    
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Photo : <input type="file">
+    </div><br>
+    <div>
+        Gender:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMale<input type="radio" name="gen"> FeMale<input type="radio" name="gen">
+        Others<input type="radio" name="gen">
+    </div><br>
+    <div>
+        Department: &nbsp&nbsp&nbsp&nbsp<select>
+            <option>Select</option>
+            <option>Production</option>
+            <option>Admin</option>
+            <option>Quality and check</option>
+            <option>Sales and Marketing</option>
+            <option>Ground Staff</option>
+        </select></div><br>
+        <div>
+        Ref Code: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="password" placeholder="confidential">
+    </div><br>
+    <div>
+        Address:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <textarea rows="2" cols="25" placeholder="Your Address please"></textarea>
+       </div><br>
+       <div>
+        Have you availed services before?: <input type="checkbox">
+    </div><br>
+   
+    <div>
+        Declaration : I hereby declare that all the information shared in this
+        form is true as <br>per my knowledge and I will be responsible for any discrepancy
+        if any found in the form. <br>Yes<input type="radio" name="decl"> 
+        No<input type="radio" name="decl" checked>
+    </div><br>
+    <div>
+         Final Submit: <input type="submit">
+
+         Clear All <input type="reset">
+    </div>
+
+</fieldset>
+</div>
+<div class="pic1">
+<img src="pic.png">
+</div>
+</body>
+</html>
